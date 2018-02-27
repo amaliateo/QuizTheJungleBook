@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzTheJungleBook.TriviaActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/colonel"
+        android:contentDescription="@string/background_image"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/largeSpacing"
+        card_view:cardBackgroundColor="#CC8BC34A"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="16dp"
+        android:id="@+id/cardview">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/youknowOne"
+            android:textAlignment="center"
+            android:textAppearance="@style/styleTwo"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trivia"
+        android:layout_below="@id/cardview"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/styleOne"
+        android:background="@color/green"
+        android:padding="@dimen/smallSpacing"
+        android:onClick="trivia"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/normalSpacing"
+        android:background="@color/green"
+        android:onClick="backButton"
+        android:text="@string/back_one"
+        android:textAppearance="@style/styleOne"
+        android:textColor="@color/yellow" />
+</RelativeLayout>

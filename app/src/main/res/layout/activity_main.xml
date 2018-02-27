@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzTheJungleBook.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/maxresdefault_porttwo"
+        android:contentDescription="@string/background_image"/>
+
+    <TextView
+        android:id="@+id/disney_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/largeSpacing"
+        android:text="@string/disneys"
+        android:textAppearance="@style/styleFive" />
+
+    <TextView
+        android:id="@+id/thejunglebook_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/disney_textview"
+        android:layout_centerInParent="true"
+        android:text="@string/thejunglebook"
+        android:textAppearance="@style/styleTwo"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/quizz_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thejunglebook_textview"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/largeSpacing"
+        android:background="#CC8BC34A"
+        android:padding="@dimen/smallSpacing"
+        android:text="@string/quizz"
+        android:textAppearance="@style/styleThree"
+        android:textColor="@color/yellow" />
+
+
+
+    <Button
+        android:id="@+id/startquizz_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whatname_editte"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/largeSpacing"
+        android:background="#8BC34A"
+        android:onClick="StartQuizz"
+        android:text="@string/startquizz"
+        android:textAppearance="@style/styleFour"
+        android:textColor="@color/yellow" />
+
+    <Button
+        android:id="@+id/didyouknow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/smallSpacing"
+        android:background="@color/yellow"
+        android:onClick="didYouKnow"
+        android:padding="@dimen/smallSpacing"
+        android:text="@string/didyouknow"
+        android:textAppearance="@style/styleOne"
+        android:textColor="@color/green" />
+
+</RelativeLayout>

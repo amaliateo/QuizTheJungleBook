@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quiz The Jungle Book</string>
+    <string name="disneys">Walt Disney\'s</string>
+    <string name="thejunglebook">The Jungle Book</string>
+    <string name="quizz">Quiz</string>
+    <string name="entername">What\'s Your Name?</string>
+    <string name="startquizz">Start Quiz</string>
+    <string name="didyouknow">Did You Know?</string>
+    <string name="questionOne">Who discovered baby Mowgli in the jungle?</string>
+    <string name="qOneAnswerOne">the wolves</string>
+    <string name="qOneAnswerTwo">Baloo, the bear</string>
+    <string name="qOneAnswerThree">Bagheera, the panther</string>
+    <string name="questionTwo">What character sings the \"The Bare Necessities\" song ?</string>
+    <string name="questionTwohint">type the answer here</string>
+    <string name="questionThree">Who were Mowgli\'s best friends?</string>
+    <string name="qThreeAnswerOne">Bagheera</string>
+    <string name="qThreeAnswerTwo">Shere Khan</string>
+    <string name="qThreeAnswerThree">Baloo</string>
+    <string name="qThreeAnswerFour">Kaa</string>
+    <string name="questionFour">Why did the monkeys kidnap Mowgli?</string>
+    <string name="qFourAnswerOne">they wanted a new friend</string>
+    <string name="qFourAnswerTwo">they thought Mowgli was a monkey</string>
+    <string name="qFourAnswerThree">they wanted to know how to make fire</string>
+    <string name="questionFive">Why did Shere Khan want to kill Mowgli?</string>
+    <string name="qFiveAnswerOne">He was hungry</string>
+    <string name="qFiveAnswerTwo">He was a mean old tiger</string>
+    <string name="qFiveAnswerThree">Because Mowgli was a human</string>
+    <string name="finishButton">I\'m done, Show me the Score!</string>
+    <string name="youknowOne">Just after Mowgli runs away and Bagheera is trying to convince Col. Hathi
+        to look for him, Hathi\'s wife Winifred announces if they don\'t help find him,
+        she will take command of the herd. Hathi is outraged at the thought of a female leading.
+        The joke is that elephants herds are led by a matriarch (female),
+        while adult males generally live alone. As the only apparent female in the herd,
+        Winifred should be leading by default.</string>
+    <string name="Congratulations">Well done, Amalia!</string>
+    <string name="Points">You get 5 points!</string>
+    <string name="back">Start Over</string>
+    <string name="trivia">Click for more trivia facts!</string>
+    <string name="play_song">play song</string>
+    <string name="back_one">Back</string>
+    <string name="background_image">background image</string>
+    <string name="inside_cardview">inside cardview</string>
+</resources>
