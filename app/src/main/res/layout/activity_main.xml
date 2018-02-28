@@ -46,6 +46,18 @@
         android:textAppearance="@style/styleThree"
         android:textColor="@color/yellow" />
 
+    <EditText
+        android:id="@+id/whatname_editte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quizz_textview"
+        android:inputType="textCapCharacters"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/normalSpacing"
+        android:hint="@string/entername"
+        android:textAppearance="@style/styleOne"
+        android:textColorHint="#000000" />
+
 
 
     <Button
